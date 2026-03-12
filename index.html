@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- 3D Particle Background -->
+  <div id="three-container"></div>
+
+  <!-- Top Glass Navbar -->
+  <nav>
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#Certifecate" class="nav-link">Certifecate</a>
+    <a href="images/RASHVANTH RESUME  (5).pdf" target="_blank" class="cv-btn">CV</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+   <div class="container1">
+  <section id="home">
+    <div class="f">
+    <div class="home-img">
+       
+        <img src="images/IMG-20250707-WA0072.jpg" alt="">
+      </div>
+        <div class="home-cont">
+      <h1>Hello, I'm Rashvanth.P</h1>
+       
+      <p class="auto-text">
+        <h2><span class="js-text" style="color: red;">Generative AI </span> 
+        <span class="typed-text"></span>
+        <span class="cursor" aria-hidden="true">&nbsp;</span>
+      </h2>
+      </p>
+    
+
+      <button onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})">View My Work</button>
+      <button style="margin-left: 7px;"><a href="images/RASHVANTH RESUME  (5).pdf" target="_blank" class="cv-btn">CV</a></button>
+      <div class="icon">
+</button>
+    <a href="https://www.linkedin.com/in/rashvanth-p-066826373/" target="_blank">
+    <i class="fa-brands fa-linkedin"></i>
+</a>
+    <a href="https://github.com/rashvanth-p" target="_blank">
+      <i class= "fa-brands fa-github"></i>
+    </a>
+    <i class= "fa-brands fa-instagram"></i>
+    <i class= "fa-brands fa-facebook"></i>
+    </div>
+    </div>
+    </div>
+  </section>
+  </div>
+
+  <section class="home-style column" id="about" >
+    <h2>About Me</h2>
+    
+    <p>I am a Generative AI and Backend Developer focused on building intelligent systems using Large Language Models and scalable backend architectures.</p>
+    <br>
+    <p>My work includes building AI applications using RAG pipelines, vector databases, and Python frameworks like Flask.</p>
+    <br>
+    <br>
+    
+  </section>
+  
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill-pill">Python</div>
+    <div class="skill-pill">HTML</div>
+    <div class="skill-pill">CSS</div>
+    <div class="skill-pill">JavaScript</div>
+    <div class="skill-pill">Flask</div>
+    <div class="skill-pill">Generative AI</div>
+    <div class="skill-pill">RAG</div>
+    <div class="skill-pill">LLM</div>
+    <div class="skill-pill">LangChain</div>
+    <div class="skill-pill">Git / GitHub</div>
+    <div class="skill-pill">Vector Databases</div>
+    <div class="skill-pill">REST APIs</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project">
+      <img src="images/Screenshot 2026-03-11 114327.png" alt="AI Resume Analyzer Project" />
+      <h3>AI Resume Analyzer (RAG)</h3>
+      <p>AI Resume Analyzer using Retrieval-Augmented Generation and LLMs.</p>
+      <a class="btn" href="https://rashvanth-ai-rag-project.hf.space" target="_blank">Live Demo</a>
+    </div>
+
+    <div class="project">
+      <img src="images/project2.jpg" alt="Project Two" />
+      <h3>Project Two</h3>
+      <p>Project description here.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/project3.jpg" alt="Project Three" />
+      <h3>Project Three</h3>
+      <p>Project description here.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="Certifecate">
+  <h2>Certifecate</h2>
+    <div class="project-grid">
+      <div class="project">
+        <a href="images/generatic ai.jpg">
+        <img src="images/gai img.jpeg" alt="Project 3" />
+        <h3>Generatic AI</h3>
+        <p>IBM in Generatic Ai Software Development</p>
+        </a>
+      </div>
+      <div class="project">
+        <a href="images/rinex.png">
+        <img src="images/download.jpg" alt="Project 3" />
+        <h3>INTERNSHIP</h3>
+        <p>Artificial Intelligence</p>
+        </a>
+      </div>
+      <div class="project">
+        <a href="images/nvidia.png">
+        <img src="images/nvidia img.webp" alt="Project 3" />
+        <h3>NVIDA</h3>
+        <p>Fundamentals of Deep Learning</p>
+        </a>
+      </div>
+      <div class="project">
+        <a href="images/kaggle.jpg">
+        <img src="images/kaggle in.jpg" alt="Project 2" />
+        <h3>kaggle</h3>
+        <p>Introduction to Machine Learning</p>
+        </a>
+      </div>
+      <div class="project">
+        <a href="images/nptl.png">
+        <img src="images/iot img.avif" alt="Project 2" />
+        <h3>NPTEL</h3>
+        <p>NPTEL in Introduction tO Internet of Thing</p>
+        </a>
+      </div>
+      <div class="project">
+        <a href="images/ibm web development.png">
+          <img src="images/wb img.jpeg" alt="Web Development">
+          <h3>Web Development</h3>
+          <p>IBM Certification</p>
+        </a>
+      </div>
+      <div class="project">
+        <a href="images/linguaskill1.jpg">
+        <img src="images/linguaskill in.png" alt="Project 3" />
+        <h3>linguaskill</h3>
+        <p>BEC (Business English Certificate)</p>
+        </a>
+      </div>
+  </section>
+
+ <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input id="name" type="text" placeholder="Your Name" required>
+    <input id="email" type="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
